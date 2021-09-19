@@ -6,3 +6,9 @@
 
 ## LAYOUT
 ![DataPath](NAND_layout.png)
+
+## EXTRACTED LAYOUT
+
+
+## LVS
+
