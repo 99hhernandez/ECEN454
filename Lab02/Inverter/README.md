@@ -6,3 +6,8 @@
 
 ## LAYOUT
 ![DataPath](inverter_layout.png)
+
+## EXTRACTED LAYOUT
+
+
+## LVS
