@@ -24,6 +24,8 @@
 
 ## SINK CAPACITANCE
 
+![DataPAth](inverter_AC.png)
+
 |  Frequency (MHz)  |  Ifrequency (uA)  |  Capacitance (fF)  |
 |     :-------:     |      :------:     |      :-------:     |
 |  100  |  1.92  |  3.056  |
