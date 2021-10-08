@@ -9,15 +9,23 @@
 ## TIME DELAYS
 ![DataPath](single_bit__delay.png)
 
-| Rising Delay (ns) | Falling Delay (ns) | % Error |
-|     :------:      |       :------:     |  :---:  |
-| 0.0 | 0.0 | 0.0% |
+| Output | Rising Delay (ns) | Falling Delay (ns) | % Error |
+| :----: |     :------:      |       :------:     |  :---:  |
+| SUM | 0.6769 | 0.6326 | 7.00% |
+| CARRY | 0.4109 | 0.4543 | 10.6% |
 
 ## POWER DISSIPATION
 
 | Power Source | Value (uW) |
 |    :----:    | :---: |
-| VDC | 0.0 |
-| IN_A | 0.0 |
-| IN_B | 0.0 |
-| IN_C | 0.0 |
+| VDC | -110.5 |
+| IN_A | -0.7606 |
+| IN_B | -0.8067 |
+| IN_C | 0.1900 |
+
+## MAX FREQUENCY
+![DataPath](single_bit_maxFreq.png)
+
+| :---: | :---: |
+| Max Period | 14ns |
+| Max Frequency | 71MHz |
