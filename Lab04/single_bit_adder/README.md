@@ -1,13 +1,13 @@
 ## SCHEMATIC
-![DataPath](single_bit__schem.png)
+![DataPath](single_bit_schem.png)
 
 ## LAYOUT
-![DataPath](single_bit__layout.png)
+![DataPath](single_bit_layout.png)
 
 ![DataPath](single_bit_layout2.png)
 
 ## TIME DELAYS
-![DataPath](single_bit__delay.png)
+![DataPath](single_bit_delay.png)
 
 | Output | Rising Delay (ns) | Falling Delay (ns) | % Error |
 | :----: |     :------:      |       :------:     |  :---:  |
