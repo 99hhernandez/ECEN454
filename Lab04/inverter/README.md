@@ -7,6 +7,10 @@
 ## TIME DELAYS
 ![DataPath](inverter_delay.png)
 
+| Rising Delay (ns) | Falling Delay (ns) | % Error |
+|     :------:      |       :------:     |  :---:  |
+| 0.2638 | 0.2567 | 2.77% |
+
 ## POWER DISSIPATION
 
 | Power Source | Value (uW) |
