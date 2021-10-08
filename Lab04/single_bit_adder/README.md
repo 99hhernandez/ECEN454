@@ -28,5 +28,6 @@
 
 
 | Max Period | 14ns |
+| :---: | :---: |
 | Max Frequency | 71MHz |
 | :---: | :---: |
