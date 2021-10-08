@@ -27,7 +27,5 @@
 ![DataPath](single_bit_maxFreq.png)
 
 
-| Max Period | 14ns |
-| :---: | :---: |
-| Max Frequency | 71MHz |
-| :---: | :---: |
+- Max Period: 14ns 
+- Max Frequency: 71MHz
