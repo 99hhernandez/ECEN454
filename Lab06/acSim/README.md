@@ -1,7 +1,7 @@
 ## SCHEMATIC
 ![DataPath](DFF_ac_schem.png)
 
-## INPUT CAPACITANCE
+## SINK CAPACITANCE
 ![DataPath](input_capacitance.png)
 
 
