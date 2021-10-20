@@ -1,8 +1,8 @@
 ## SCHEMATIC
-
+![DataPath](DFF_schem.png)
 
 ## LAYOUT
-
+![DataPath](DFF_layout.png)
 
 ## LVS
 ```
