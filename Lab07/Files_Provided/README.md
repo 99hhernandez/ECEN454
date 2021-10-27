@@ -16,3 +16,5 @@
   ```
 
 ### PART C
+- When modifying the configuration file *innovus.conf*, the top module name is "*cruisecontrol*"
+- When importing the design, put "vdd" as *Power Nets* and gnd as *Ground Nets*
