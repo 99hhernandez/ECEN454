@@ -13,7 +13,7 @@ Pin Density = 0.5207.
             = total # of pins 1008 / total area 1936.
 ```
 
-### TOTAL WIRELENGTH and VIAS
+### TOTAL WIRELENGTH AND VIAS
 ```
 #Complete Global Routing.
 #Total wire length = 9148 um.
