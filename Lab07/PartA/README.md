@@ -30,6 +30,8 @@ Total cell area:                 10463.000000
 Total area:                 undefined
 ```
 
+The reported area shoud be 10656 square micrometers. Your reported area should be close to this number (within 9k and 10k range). If it is smaller than this range, you need to redo part A.
+
 ## REPORT OF CONSTRAINTS
 ```
 Information: Updating design information... (UID-85)
