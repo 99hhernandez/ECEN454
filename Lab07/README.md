@@ -1,3 +1,5 @@
+# GO TO [Files_Provided](https://github.com/99hhernandez/ECEN454/blob/main/Lab07/Files_Provided/README.md) FOR TYPOS AND CORRECTIONS
+
 ## INTRODUCTION
 Design Vision is the graphical interface to the Synopsys family of logic synthesis tools. Internally it runs
 design compiler. This lab is to familiarize you with the basics of synthesis using Design Vision through a simple
@@ -32,4 +34,3 @@ Hence we use a library with predefined standard cells (defined in terms of area,
 generate the layout of the circuit by using automatic place and route procedures. The disadvantage with this automatic
 flow is that sometimes we do not get the desired level of optimization.
 
-# GO TO [Files_Provided](https://github.com/99hhernandez/ECEN454/blob/main/Lab07/Files_Provided/README.md) FOR TYPOS AND CORRECTIONS
