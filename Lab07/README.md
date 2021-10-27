@@ -1,4 +1,4 @@
-# GO TO [Files_Provided](https://github.com/99hhernandez/ECEN454/blob/main/Lab07/Files_Provided/README.md) FOR TYPOS AND CORRECTIONS
+# GO TO [HERE](https://github.com/99hhernandez/ECEN454/blob/main/Lab07/Files_Provided/README.md) FOR TYPOS AND CORRECTIONS
 
 ## INTRODUCTION
 Design Vision is the graphical interface to the Synopsys family of logic synthesis tools. Internally it runs
