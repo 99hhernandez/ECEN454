@@ -31,3 +31,5 @@ previously designed. It will be extremely difficult to manually draw the layout 
 Hence we use a library with predefined standard cells (defined in terms of area, delay and power consumption) to
 generate the layout of the circuit by using automatic place and route procedures. The disadvantage with this automatic
 flow is that sometimes we do not get the desired level of optimization.
+
+# GO TO [Files_Provided](99hhernandez/ECEN454/blob/main/Lab07/Files_Provided/README.md) FOR TYPOS AND CORRECTIONS
