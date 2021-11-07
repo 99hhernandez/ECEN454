@@ -69,7 +69,7 @@ __optimized__ circuits for all cases (you need to calculate improvement). Please
     |  | CARRY |  |  |
 
     Power Consumption:
-    | Case | Optimized (uW) | Non-optimized (uW) |
+    | Case | Optimized (μW) | Non-optimized (μW) |
     | :---: | :---: | :---: |
     | A=0000 B=1111 Carry In=1 |  |  |
     | A=1010 B=0101 Carry In=0 |  |  |
@@ -79,7 +79,7 @@ __optimized__ circuits for all cases (you need to calculate improvement). Please
 3) Make a __table comparing the Area__ (sum of all the transistors’ W*L).
    
    Area:
-   | Optimized (u^2 m^2) | Non-optimized (u^2 m^2) |
+   | Optimized (μm<sup>2</sup>) | Non-optimized (μm<sup>2</sup>) |
    | :---: | :---: |
    |  |  |
    
