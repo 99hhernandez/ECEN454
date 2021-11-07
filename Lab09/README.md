@@ -20,8 +20,8 @@ drawing of the critical path.
     And complete the __table comparing__ the __delays__ and the __VDD Power consumption__ of __both__ the __non-optimized__ and the
 __optimized__ circuits for all cases (you need to calculate improvement). Please switch all inputs at the same time as you did in the lab 5.
 
-    Delays:
-    | Case | Pin | Non-optimized (ps) | Optimized (ps) |
+    Non-Optimized 4-bit Adder Delays:
+    | Case | Pin | Rising (ps) | Falling (ps) |
     | :---: | :---: | :---: | :---: |
     | A=0000 B=1111 Carry In=1| SUM[0] |  |  |
     |  | SUM[1] |  |  |
@@ -44,7 +44,31 @@ __optimized__ circuits for all cases (you need to calculate improvement). Please
     |  | SUM[3] |  |  |
     |  | CARRY |  |  |
 
-    Power Cinsumption:
+    Optimized 4-bit Adder Delays:
+    | Case | Pin | Rising (ps) | Falling (ps) |
+    | :---: | :---: | :---: | :---: |
+    | A=0000 B=1111 Carry In=1| SUM[0] |  |  |
+    |  | SUM[1] |  |  |
+    |  | SUM[2] |  |  |
+    |  | SUM[3] |  |  |
+    |  | CARRY |  |  |
+    | A=1010 B=0101 Carry In=0 | SUM[0] |  |  |
+    |  | SUM[1] |  |  |
+    |  | SUM[2] |  |  |
+    |  | SUM[3] |  |  |
+    |  | CARRY |  |  |
+    | A=1010 B=0101 Carry In=1 | SUM[0] |  |  |
+    |  | SUM[1] |  |  |
+    |  | SUM[2] |  |  |
+    |  | SUM[3] |  |  |
+    |  | CARRY |  |  |
+    | A=1100 B=1000 Carry In=0 | SUM[0] |  |  |
+    |  | SUM[1] |  |  |
+    |  | SUM[2] |  |  |
+    |  | SUM[3] |  |  |
+    |  | CARRY |  |  |
+
+    Power Consumption:
     | Case | Optimized (uW) | Non-optimized (uW) |
     | :---: | :---: | :---: |
     | A=0000 B=1111 Carry In=1 |  |  |
