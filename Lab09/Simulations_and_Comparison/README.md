@@ -1,4 +1,4 @@
-Non-Optimized 4-bit Adder Delays:
+### Non-Optimized 4-bit Adder Delays
 | Case | Pin | Rising (ps) | Falling (ps) |
 | :---: | :---: | :---: | :---: |
 | A=0000 B=1111 Carry In=1| SUM[0] | 430.5 | 438.6 |
@@ -22,7 +22,7 @@ Non-Optimized 4-bit Adder Delays:
 |  | SUM[3] | 1029 | 958 |
 |  | CARRY | 475.7 | 422.2 |
 
-Optimized 4-bit Adder Delays:
+### Optimized 4-bit Adder Delays
 | Case | Pin | Rising (ps) | Falling (ps) |
 | :---: | :---: | :---: | :---: |
 | A=0000 B=1111 Carry In=1| SUM[0] | 419.9 | 430.2 |
@@ -47,7 +47,7 @@ Optimized 4-bit Adder Delays:
 |  | CARRY | 289.9 | 233.2 |
   
   
-Power Dissipation:
+### Power Dissipation
 | Case | Non-Optimized (μW) | Optimized (μW) |
 | :---: | :---: | :---: |
 | A=0000 B=1111 Carry In=1 | -115.8 | -113.0 |
@@ -56,7 +56,15 @@ Power Dissipation:
 | A=1100 B=1000 Carry In=0 | -119.1 | -115.1 |
 
 
-Area:
+### Area
 | Non-Optimized (μm<sup>2</sup>) | Optimized (μm<sup>2</sup>) |
 | :---: | :---: |
 | 18 | 19.84 |
+
+  Non-Optimized:
+  <br>![img](http://www.sciweavers.org/tex2img.php?eq=%20Area%3D8Area_%7BXOR2%7D%20%2B%2012Area_%7BNAND2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+  <br>![img](http://www.sciweavers.org/tex2img.php?eq=%20Area%3D8%281.68%20%5Cmu%20m%5E%7B2%7D%29%20%2B%2012%280.38%20%5Cmu%20m%5E%7B2%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+
+  Optimized:
+  <br>![img](http://www.sciweavers.org/tex2img.php?eq=%20Area%3D8Area_%7BXOR2%7D%2B10Area_%7BNAND2%7D%2BArea_%7BNAND2_%7Bg8%7D%7D%2BArea_%7BNAND2_%7Bg9%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+  <br>![img](http://www.sciweavers.org/tex2img.php?eq=Area%3D8%281.68%20%5Cmu%20m%5E%7B2%7D%29%2B10%280.38%20%5Cmu%20m%5E%7B2%7D%29%2B%280.76%20%5Cmu%20m%5E%7B2%7D%29%2B%281.84%20%5Cmu%20m%5E%7B2%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
