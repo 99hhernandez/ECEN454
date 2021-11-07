@@ -48,7 +48,7 @@ Optimized 4-bit Adder Delays:
   
   
 Power Dissipation:
-| Case | Non-Optimized (uW) | Optimized (uW) |
+| Case | Non-Optimized (μW) | Optimized (μW) |
 | :---: | :---: | :---: |
 | A=0000 B=1111 Carry In=1 | -115.8 | -113.0 |
 | A=1010 B=0101 Carry In=0 | -115.7 | -113.0 |
@@ -57,6 +57,6 @@ Power Dissipation:
 
 
 Area:
-| Non-Optimized (um<sup>2</sup>) | Optimized (um<sup>2</sup>) |
+| Non-Optimized (μm<sup>2</sup>) | Optimized (μm<sup>2</sup>) |
 | :---: | :---: |
 | 18 | 19.84 |
