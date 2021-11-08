@@ -8,10 +8,11 @@
 ## CALCULATIONS
 ![img](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20C_%7BXOR2%7D=7.78fF)
 ![img](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20C_%7BNAND2%7D=2.51fF)
+<br>Capacitance of [XOR2 gate](https://github.com/99hhernandez/ECEN454/tree/main/Lab03/XOR2) and [NAND2 gate](https://github.com/99hhernandez/ECEN454/tree/main/Lab03/NAND2) come from the calculated values from Lab 3.
 
 ### Path Logical Effort (G)
 ![G](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20G=%5Cprod%20g_%7Bi%7D=g_%7BXOR2%7D%5Ctimes%20(g_%7BNAND2%7D)%5E%7B8%7D=4%5Cbig(%5Cfrac%7B4%7D%7B3%7D%5Cbig)%5E%7B8%7D=39.95)
-<br>Capacitance of [XOR2 gate](https://github.com/99hhernandez/ECEN454/tree/main/Lab03/XOR2) and [NAND2 gate](https://github.com/99hhernandez/ECEN454/tree/main/Lab03/NAND2) come from the calculated values from Lab 3.
+<br>The logical effort of a gate with given inputs can be found on Table 1.1 in Page 7 [here](https://my.eng.utah.edu/~cs6710/handouts/Sutherland_Ch1.pdf).
 
 ### Path Electrical Effort (H)
 ![H](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20H=%5Cfrac%20%7BC_%7Bout-path%7D%7D%7BC_%7Bin-path%7D%7D=%5Cfrac%20%7BC_%7Bload%7D%7D%7BC_%7BXOR2%7D%7D=%5Cfrac%20%7B30fF%7D%7B7.78fF%7D=3.86)
