@@ -8,7 +8,7 @@ design. You will define constraints for your design and check the timing of all 
 of this lab we will use the synthesized Verilog netlist that you will generate for the cruise control logic to "Place and
 Route" the circuit on a die.
 
-## PART A: LOGICC SYNTHESIS
+## PART A: LOGIC SYNTHESIS
 In this case we need to synthesize the logic with a certain specific library for 180nm technology. The Synopsys
 database format (db) file for a typical 180nm technology is provided. We need to ensure that the
 synthesis is performed according to this library file (see below for procedure). What this means is that the optimization
