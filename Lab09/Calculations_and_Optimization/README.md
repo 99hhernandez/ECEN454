@@ -24,3 +24,6 @@
 ![imgf](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20%20%5Chat%7Bf%7D=F%5E%7B%5Cfrac%20%7B1%7D%7BN%7D%7D=(GBH)%5E%7B%5Cfrac%20%7B1%7D%7BN%7D%7D=43578.9%5E%7B%5Cfrac%20%7B1%7D%7B9%7D%7D=3.28%20) 
 
 ### Transistor Resizing
+If 2.7 <= f/hat <= 4, great, if not then you need to change B by resizing gates outside the critical path. If your f/hat falls within range, then start from the end of the critical path and calculate C<sub>in,i</sub> for each gate, making your way to the beginning of the critical path. If your C<sub>in,i</sub> <= C<sub>gate</sub>, dont resize, else resize the transistors by the multiplier you get from C<sub>in,i</sub> / C<sub>gate</sub>.
+
+![Cini](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20C_%7Bin,i%7D=%5Cfrac%20%7Bg_%7Bi%7DC_%7Bout,i%7D%7D%7B%5Chat%7Bf%7D%7D)
