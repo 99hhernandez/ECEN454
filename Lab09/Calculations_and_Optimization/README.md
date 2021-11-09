@@ -24,6 +24,18 @@
 ![imgf](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20%20%5Chat%7Bf%7D=F%5E%7B%5Cfrac%20%7B1%7D%7BN%7D%7D=(GBH)%5E%7B%5Cfrac%20%7B1%7D%7BN%7D%7D=43578.9%5E%7B%5Cfrac%20%7B1%7D%7B9%7D%7D=3.28%20) 
 
 ### Transistor Resizing
-If 2.7 <= f/hat <= 4, great, if not then you need to change B by resizing gates outside the critical path. If your f/hat falls within range, then start from the end of the critical path and calculate C<sub>in,i</sub> for each gate, making your way to the beginning of the critical path. If your C<sub>in,i</sub> <= C<sub>gate</sub>, dont resize, else resize the transistors by the multiplier you get from C<sub>in,i</sub> / C<sub>gate</sub>.
+If 2.7 <= \hat{f} <= 4, great, if not then you need to change B by resizing gates outside the critical path. If your f/hat falls within range, then start from the end of the critical path and calculate C<sub>in,i</sub> for each gate, making your way to the beginning of the critical path. If your C<sub>in,i</sub> <= C<sub>gate</sub>, dont resize, else resize the transistors by the multiplier you get from C<sub>in,i</sub> / C<sub>gate</sub>.
 
 ![Cini](https://latex.codecogs.com/png.image?%5Cdpi%7B150%7D%20%5Cbg_black%20C_%7Bin,i%7D=%5Cfrac%20%7Bg_%7Bi%7DC_%7Bout,i%7D%7D%7B%5Chat%7Bf%7D%7D)
+
+| Gate | C<sub>in,i</sub>(fF) | <= C<sub>gate</sub> | Resize Multiplier |
+| :---: | :---: | :---: | :---: |
+| 9(NAND2) | 12.2 | ✖️ | 4.86 |
+| 8(NAND2) | 4.96 | ✖️ | 1.98 |
+| 7(NAND2) | 2.02 | ✔️ | - |
+| 6(NAND2) | 0.821 | ✔️ | - |
+| 5(NAND2) | 0.334 | ✔️ | - |
+| 4(NAND2) | 0.136 | ✔️ | - |
+| 3(NAND2) | 0.0553 | ✔️ | - |
+| 2(NAND2) | 0.0225 | ✔️ | - |
+| 1(NAND2) | 0.0274 | ✔️ | - |
