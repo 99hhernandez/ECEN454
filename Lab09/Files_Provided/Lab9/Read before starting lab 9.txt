@@ -1,4 +1,0 @@
-before starting lab 9 please go through the following manual from University of Utah to learn about logical effort. 
-The table on page 7 is important for your calculations. There are many great examples as well to help you grasp the concept better.
-
-https://my.eng.utah.edu/~cs6710/handouts/Sutherland_Ch1.pdf
