@@ -1,3 +1,6 @@
+### SCHEMATIC
+![DataPath](https://github.com/99hhernandez/ECEN454/blob/main/Lab05/4bitAdder/4bitAdd_sim.png)
+
 ### Non-Optimized 4-bit Adder Delays
 | Case | Pin | Rising (ps) | Falling (ps) |
 | :---: | :---: | :---: | :---: |
